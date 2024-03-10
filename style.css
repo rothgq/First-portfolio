@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(202, 201, 199);
+}
+
+header {
+    font-size: 30px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    color:antiquewhite;
+    background-color: rgb(69, 69, 128);
+    border: 2px solid black;
+    text-shadow: 3px 3px black;
+}
+
+img {
+    justify-self: center;
+    border: 2px solid rgb(90, 44, 44);
+    border-radius: 33px;
+}
+
+nav ul {
+    display: flex;
+    font-weight: bolder;
+    list-style-type: none;
+}
+
+nav a {
+    font-size: larger;
+    padding: 15px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: aqua;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    font-size: 75px;
+    border-bottom: black solid 2px;
+    line-height: normal;
+}
+article {
+    text-align: center;
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+
+article ul {
+    font-weight: bolder;
+    display: flex;
+    list-style-type: none;
+}
+
+article a {
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: aqua;
+}
+
+.example {
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    background-color: rgb(130, 88, 170);
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.example h3 {
+    width: auto;
+    background-color: #14283b;
+    color: #f3eeee;
+}
+
+.example img {
+    justify-content: space-between;
+    width: 99%;
+    height: 55%;
+}
+
+.flex-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-around;
+}
+.contacts  {
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
